@@ -1,0 +1,73 @@
+h2{
+
+    /* background-color: black;
+    text-align: center;
+    text-decoration: dotted;
+    color: white; */
+    text-shadow: 2px 2px 4px  green;
+
+}
+p{
+
+    text-decoration: dashed;
+}
+#div1{
+    /* border-style: dashed;
+    border-width: 3px;
+    border-color: blue;
+    border-top: solid; */
+    width: 200;
+    background-image: url("/media/jal-mahal-jaipur.jpg");
+   background-size: 100%;
+   
+    }
+#div2{
+    background-image: url("/media/Hawa-Mahal.jpg");
+    background-size: 100%;
+    
+}
+#div3{
+    background-image: linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+   
+}
+#div4{
+  background-image: linear-gradient( to top,red,rgb(243, 81, 81),rgb(255, 138, 138));
+}
+span{
+    border-color: black;
+    border-radius: 50%;
+}
+img{
+   
+    border-radius: 100%;
+    opacity: 0.7;
+    
+}
+img:hover{
+    opacity: 1.0;
+}
+a:link{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+a:visited{ 
+    color: blue;
+}
+a:hover{
+    color: black;
+}
+
+p{
+    background-color: aqua;
+}
+body{
+    background-image: url("/media/istockphoto-155598384-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position:top right ;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+    /* background: color image('') repeat attachment position; */
+}
+

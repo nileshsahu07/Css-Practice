@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: black;
+            
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: left;
+
+        }
+        li{
+            margin: 20px;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        .bi{
+            height: 95vh;
+            background-image: url(/media/WhatsApp\ Image\ 2023-11-03\ at\ 12.34.39\ PM.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)
+
+          
+        }
+        .h1{
+            text-align: center;
+            color: white;
+        }
+        .p1{
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 200px;
+            font-size: x-large;
+
+        }
+        .btn1{
+            border: none;
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px 20px 10px 20px;
+            margin: 20px;
+        }
+        @media screen and (max-width:540px){
+        ul{
+            list-style-type: none;
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            /* background-color: #f1f1f1; */
+        
+    }
+    li a{
+            /* display: block; */
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+    }
+    .contener1{
+        flex-direction: column-reverse;
+    }
+    .contener2{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+}
+    .h2{
+        text-align: center;
+    }
+
+    .contener1 {
+        /* background-color: blue; */
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contener1 .bac{
+        background-color: rgb(185,16,54);
+        width: 550px;
+        height: 350px;
+    }
+    .contener1 .bi2{
+        background-image: url(/media/gallery_05_crop-375x210.webp);
+        background-repeat: none;
+        background-size: cover;
+        width: 550px;
+        height: 350px;
+    }
+    h2{
+        color: white;
+        margin: 100px 0 0 70px;
+    }
+    .p2{
+        color: white;
+        margin: 0 0 0 70px;
+    }
+    .btn2{
+            border: none;
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px 20px 10px 20px;
+            margin: 10px 0 0 70px;
+    }
+    .contener2{
+        width: 100%;
+        height: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contener2 .bi3{
+        background-image: url(/media/getting_around_01_1920x1080_crop-375x210.webp);
+        background-repeat: none;
+        background-size: cover;
+        width: 550px;
+        height: 350px;
+
+    }
+    .contener2 .bac2{
+        background-color: rgb(246, 211, 91);
+        width: 550px;
+        height: 350px;
+
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        
+</div>
+<div class="bi">
+    <h1 class="h1"><b>My Webpage</b></h1>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora, vitae? Ullam quisquam deserunt reiciendis atque <br> ipsum modi excepturi ratione, temporibus dolor perspiciatis vero <br>velit corporis quia accusantium, incidunt totam sequi.</p>
+    <button class="btn1">Explore More</button>
+</div>
+<div class="discover">
+    <h1 class="h2">Discover our trip planner</h1><hr>
+</div>
+<div class="contener1">
+    <div class="bac">
+        <h2>Create your own itinerary</h2>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem distinctio dolorum.</p>
+        <button class="btn2">Learn More</button>
+    </div>
+    <div class="bi2"></div>
+</div>
+<div class="discover">
+    <h1 class="h2">Useful information</h1><hr>
+</div>
+<div class="contener2">
+    <div class="bi3"></div>
+    <div class="bac2">
+        <h2 style="color: black;">Road Trip Guide</h2>
+        <p class="p2" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem distinctio dolorum.</p>
+        <button class="btn2" style="background-color: rgb(185, 16, 54) ; color: white;">Learn More</button>
+    </div>
+    </div>
+<div class="contener2">
+    <div class="bac2">
+        <h2 style="color: black;">Transportation</h2>
+        <p class="p2" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem distinctio dolorum.</p>
+        <button class="btn2" style="background-color: rgb(185, 16, 54) ; color: white;">Learn More</button>
+    </div>
+    <div class="bi3" style="background-image: url(/media/transportation-plan-your-trip_crop-375x210.webp);"></div>
+    </div>
+<div class="contener2">
+    <div class="bi3" style="background-image: url(/media/MicrosoftTeams-image\ \(1\).png);"></div>
+    <div class="bac2">
+        <h2 style="color: black;">Your best Saudi holidays awaits</h2>
+        <p class="p2" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem distinctio dolorum.</p>
+        <button class="btn2" style="background-color: rgb(185, 16, 54) ; color: white;">Learn More</button>
+    </div>
+    </div>
+    
+</body>
+</html>

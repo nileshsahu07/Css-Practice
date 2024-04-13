@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            animation-name: demo;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+        
+        }
+        @keyframes demo {
+            from{
+                background-color: red;
+                box-shadow: 0 0 10px aqua;
+            }
+            to{
+                background-color: yellow;
+                box-shadow: 0 0 10px blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html>
